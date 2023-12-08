@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electronics Store</title>
+        <!-- Include the Tailwind CSS CDN -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet">
+    </head>
+    <body class="font-sans bg-gray-100">
+
+        <!-- Navigation Bar -->
+        <nav class="bg-gray-800 text-white p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold">ElectroStore</a>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Products</a></li>
+                    <li><a href="#" class="hover:text-gray-300">About Us</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="bg-blue-500 text-white py-20">
+            <div class="container mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-4">Welcome to ElectroStore</h1>
+                <p class="text-lg mb-8">Your one-stop shop for the latest
+                    electronics</p>
+                <a href="#"
+                    class="bg-white text-blue-500 py-2 px-6 rounded-full text-lg font-semibold hover:bg-blue-400 transition duration-300">Shop
+                    Now</a>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="py-16">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">Featured Products</h2>
+                <div
+                    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Product Card Example -->
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="/images/product-image-1.png"
+                            alt="Product Name"
+                            class="w-full h-max object-cover mb-4">
+                        <h3 class="text-lg font-semibold mb-2">Rog Ally</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.</p>
+                        <p class="text-blue-500 mt-4">$499.99</p>
+                        <button
+                            class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-400 transition duration-300">Add
+                            to Cart</button>
+                    </div>
+                    <!-- Product Card Example -->
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="/images/product-image-2.png"
+                            alt="Product Name"
+                            class="w-full h-max object-cover mb-4">
+                        <h3 class="text-lg font-semibold mb-2">Dell Laptop</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.</p>
+                        <p class="text-blue-500 mt-4">$1349.99</p>
+                        <button
+                            class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-400 transition duration-300">Add
+                            to Cart</button>
+                    </div>
+                    <!-- Product Card Example -->
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="/images/product-image-3.png"
+                            alt="Product Name"
+                            class="w-full h-max object-cover mb-4">
+                        <h3 class="text-lg font-semibold mb-2">Honor Devices</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.</p>
+                        <p class="text-blue-500 mt-4">$3372.99</p>
+                        <button
+                            class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-400 transition duration-300">Add
+                            to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-8">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2023 ElectroStore. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
